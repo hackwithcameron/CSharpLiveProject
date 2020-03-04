@@ -8,7 +8,7 @@ Below are some examples of features I implemented.
 ### Stories
 [Subscriber Dashboard](#Subscriber-Dashboard)\
 [Saving Sponsor Logos](#Saving-Sponsor-Logos)\
-[Display logos](#Display-logos)\
+[Display logos](#Display-logos)
 
 I concentrate a lot of my efforts on back end and functional aspects of the website. I wanted my product to work as smoothly as possible creating functional flow of webpages and displaying information the user wanted. It was important to me to create simple and readable code not only for efficiency, but for ease of trouble shooting and maintenance.
 
