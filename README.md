@@ -1,7 +1,7 @@
 # C# Live Project
 
 ### Introduction
-Doing two week sprints using different programming languages has really helped me solidify my understanding of how full scale MVC web applications work, as well as using functions, and storing important information in a database. For this sprint I have been writing in C# which is a very powerful language, and can be used for all sorts of applications from smaller console apps to full scale websites.  Being someone who primarily uses a Mac as my primary computer, I decided to test my knowledge with Windows OS this time around to be able to handle any situation. As you continue reading I will explain some challenges I had and how I overcame them to create the most functional UX as possible. Because in my opinion an app is only as good as the as the experience the end user has no matter how many features it has.
+Doing two-week sprints using different programming languages has really helped solidify my understanding of how full scale MVC web applications work, as well as using functions, and storing important information in a database. For this sprint I have been writing in C#, which is a very powerful language, and can be used for all sorts of applications from smaller console apps to full scale websites.  Being someone who uses a Mac as my primary computer, I decided to test my knowledge with Windows OS this time around, so I'm able to handle any situation. As you continue reading I will explain some challenges I had and how I overcame them to create the most functional UX, as possible. Because, in my opinion, an app is only as good as the experience the user has, no matter how many features it has.
 
 Below are some examples of features I implemented.
 
@@ -10,10 +10,10 @@ Below are some examples of features I implemented.
 [Saving Sponsor Logos](#Saving-Sponsor-Logos)\
 [Display logos](#Display-logos)
 
-I concentrate a lot of my efforts on back end and functional aspects of the website. I wanted my product to work as smoothly as possible creating functional flow of webpages and displaying information the user wanted. It was important to me to create simple and readable code not only for efficiency, but for ease of trouble shooting and maintenance.
+I concentrated a lot of my efforts on back end and functional aspects of the website. I wanted my product to work as smoothly as possible, creating functional flow of webpages, and displaying information the user wanted. It was important to me to create simple and readable code, not only for efficiency, but for ease of trouble shooting and maintenance.
 
 #### Subscriber Dashboard
-One of the first backend stories I worked on was the ability for the user to access the subscriber dashboard even without a subscription yet. Allowing the user to then subscribe and get notifications or manage other aspects of their account. This was a fun one because I had a chance to make the dashboard dynamic showing the user if they already had a subscription or if there still needed to sign up. The pictures below show the dashboard with a subscription and without a subscription. 
+One of the first back end stories I worked on was the ability for the user to access the subscriber dashboard even without a subscription yet. Allowing the user to then subscribe and get notifications, or manage other aspects of their account. This was a fun one because I had a chance to make the dashboard dynamic showing the user if they already had a subscription or if they still needed to sign up. The pictures below show the dashboard with a subscription and without a subscription. 
 
 
 ```
@@ -114,7 +114,7 @@ One of the first backend stories I worked on was the ability for the user to acc
 <hr>
 
 #### Saving Sponsor Logos
-Next I worked on utilizing the ability to have Sponsors upload a logo of their choosing. For this I had to use a helper method to convert the photo into a byte array to be saved in the database. Then convert the image back to be displayed in the view.
+Next I worked on utilizing the ability to have sponsors upload a logo of their choosing. For this I had to use a helper method to convert the photo into a byte array to be saved in the database. Then convert the image back to be displayed in the view.
 
 ###### Create method for new sponsors
 ```
@@ -207,4 +207,4 @@ For the sponsorship index page I needed to display the logo only if one existed 
 
 
 ### Team Work
-For this project teamwork was key, not only using clean version control, but also to help other better understand the project at hand. As I understood the project and what was being asked of me better, I took that as an opportunity to help my team gain a better understanding of the project also. Helping others find better ways to trouble shoot their own problems. Especially when starting project with new people I feel like clear communication is key. We succeed as a team or fail as a team.
+For this project teamwork was key, not only using clean version control, but also to help others better understand the project at hand. As I began to understand the project and what was being asked of me better, I took that as an opportunity to help my team gain a better understanding of the project also. Helping others find better ways to trouble shoot their own problems. Especially when starting a project with new people, I feel like clear communication is key. We succeed as a team or fail as a team.
