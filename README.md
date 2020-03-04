@@ -8,14 +8,18 @@ Below are some examples of features I implemented.
 ### Stories
 [Subscriber Dashboard](#Subscriber-Dashboard)\
 [Saving Sponsor Logos](#Saving-Sponsor-Logos)\
-[Display logos](#Display-logos)
+[Display Logos](#Display-logos)
 
 I concentrated a lot of my efforts on back end and functional aspects of the website. I wanted my product to work as smoothly as possible, creating functional flow of webpages, and displaying information the user wanted. It was important to me to create simple and readable code, not only for efficiency, but for ease of trouble shooting and maintenance.
 
 #### Subscriber Dashboard
 One of the first back end stories I worked on was the ability for the user to access the subscriber dashboard even without a subscription yet. Allowing the user to then subscribe and get notifications, or manage other aspects of their account. This was a fun one because I had a chance to make the dashboard dynamic showing the user if they already had a subscription or if they still needed to sign up. The pictures below show the dashboard with a subscription and without a subscription. 
+###### Subscriber Dashboard without subscription
+![SubscriberDashboardBefore](https://github.com/hackwithcameron/CSharpLiveProject/blob/master/SubscriberDashboard.PNG)
+###### Subscriber Dashboard with subscription
+![SubscriberDashboardAfter](https://github.com/hackwithcameron/CSharpLiveProject/blob/master/SubscriberDashboardWithSubscription.PNG)
 
-
+###### Code for the subscriber dashboard
 ```
 <h2>Welcome to the Subscriber Area!</h2>
 
@@ -111,10 +115,12 @@ One of the first back end stories I worked on was the ability for the user to ac
     </div>
 </div>
 ```
+
 <hr>
 
 #### Saving Sponsor Logos
 Next I worked on utilizing the ability to have sponsors upload a logo of their choosing. For this I had to use a helper method to convert the photo into a byte array to be saved in the database. Then convert the image back to be displayed in the view.
+![LogoIndex](https://github.com/hackwithcameron/CSharpLiveProject/blob/master/SponsorLogoIndex.PNG)
 
 ###### Create method for new sponsors
 ```
